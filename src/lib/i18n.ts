@@ -1,0 +1,88 @@
+export type Lang = 'ID' | 'EN'
+
+export const content = {
+  nav: {
+    home:         { ID: 'Beranda',   EN: 'Home' },
+    about:        { ID: 'Tentang',   EN: 'About' },
+    projects:     { ID: 'Proyek',    EN: 'Projects' },
+    skills:       { ID: 'Keahlian', EN: 'Skills' },
+    certificates: { ID: 'Sertifikat', EN: 'Certificates' },
+    testimonial:  { ID: 'Testimoni', EN: 'Testimonial' },
+    github:       { ID: 'Github',    EN: 'Github' },
+    contact:      { ID: 'Kontak',    EN: 'Contact' },
+  },
+  hero: {
+    greeting:  { ID: 'Halo, Saya',       EN: "Hello, I'm" },
+    title:     { ID: 'System Administrator', EN: 'System Administrator' },
+    cta1:      { ID: 'Lihat Karya Saya', EN: 'View My Work' },
+    cta2:      { ID: 'Chat di WhatsApp', EN: 'Chat on WhatsApp' },
+  },
+  about: {
+    sectionTitle: { ID: 'Tentang Saya', EN: 'About Me' },
+    heading:      { ID: 'Mahasiswa Teknik Robotika & Kecerdasan Buatan', EN: 'Robotics & AI Engineering Student' },
+    bio:          {
+      ID: 'Sebagai mahasiswa S1 Teknik Robotika dan Kecerdasan Buatan di Universitas Airlangga, saya memiliki ketertarikan pada bidang IT Infrastructure, Network System Administration, dan automation. Saya telah mengerjakan berbagai proyek terkait konfigurasi jaringan, manajemen server Linux dan Windows, VPN, mail server, serta layanan infrastruktur lainnya. Saya menikmati proses membangun sistem yang stabil, aman, dan efisien dengan menggabungkan kemampuan teknis, problem solving, dan ketelitian dalam implementasi teknologi.',
+      EN: 'As an undergraduate student in Robotics and Artificial Intelligence Engineering at Universitas Airlangga, I have a strong interest in IT Infrastructure, Network System Administration, and automation. I have worked on various projects involving network configuration, Linux and Windows server management, VPN, mail servers, and other infrastructure services. I enjoy building stable, secure, and efficient systems by combining technical skills, problem-solving, and precision in technology implementation.',
+    },
+    location: { ID: 'Surabaya, Indonesia', EN: 'Surabaya, Indonesia' },
+    hireBtn:  { ID: 'Rekrut Saya',        EN: 'Hire Me' },
+  },
+  projects: {
+    sectionTitle: { ID: 'Proyek Saya',    EN: 'My Projects' },
+    detailBtn:    { ID: 'Lihat Detail',   EN: 'View Detail' },
+    closeBtn:     { ID: 'Tutup',          EN: 'Close' },
+    modalTitle:   { ID: 'Detail Project', EN: 'Project Detail' },
+    sourceCode:   { ID: 'Source Code',    EN: 'Source Code' },
+    visit:        { ID: 'Kunjungi',       EN: 'Visit' },
+    year:         { ID: 'Tahun',          EN: 'Year' },
+    tools:        { ID: 'Teknologi',      EN: 'Technologies' },
+  },
+  skills: {
+    sectionTitle: { ID: 'Keahlian', EN: 'Skills' },
+    subtitle: { ID: 'Berbagai teknologi dan tools yang saya kuasai dalam bidang System Administration, Network Engineering, dan Web Development.', EN: 'Various technologies and tools I master in System Administration, Network Engineering, and Web Development.' },
+    scrollHint: { ID: 'Geser untuk melihat lebih', EN: 'Scroll to see more' },
+    categorySystemAdmin: { ID: 'System Admin', EN: 'System Admin' },
+    categoryNetworking: { ID: 'Networking', EN: 'Networking' },
+    categoryDevelopment: { ID: 'Development', EN: 'Development' },
+    descSystemAdmin: { ID: 'Linux, Windows Server, Active Directory, DNS, VPN, Mail Server', EN: 'Linux, Windows Server, Active Directory, DNS, VPN, Mail Server' },
+    descNetworking: { ID: 'Cisco, MikroTik, VLAN, Routing, Firewall, Network Security', EN: 'Cisco, MikroTik, VLAN, Routing, Firewall, Network Security' },
+    descDevelopment: { ID: 'Next.js, Laravel, Docker, Git, Bash, PowerShell', EN: 'Next.js, Laravel, Docker, Git, Bash, PowerShell' },
+  },
+  certificates: {
+    sectionTitle: { ID: 'Sertifikat',       EN: 'Certificates' },
+    detailBtn:    { ID: 'Lihat Detail',   EN: 'View Detail' },
+    closeBtn:     { ID: 'Tutup',          EN: 'Close' },
+    modalTitle:   { ID: 'Detail Sertifikat', EN: 'Certificate Detail' },
+    issuerLabel:  { ID: 'Penerbit',       EN: 'Issuer' },
+    yearLabel:    { ID: 'Tahun',          EN: 'Year' },
+  },
+  testimonials: {
+    sectionTitle: { ID: 'Apa Kata Mereka',  EN: 'What They Say' },
+    stats: {
+      clients:  { ID: 'Pemberi Testimoni',    EN: 'Testimonials' },
+      rate:     { ID: 'Tingkat Keberhasilan', EN: 'Success Rate' },
+      projects: { ID: 'Proyek Selesai',       EN: 'Projects Done' },
+      rating:   { ID: 'Rating Rata-rata',     EN: 'Average Rating' },
+    }
+  },
+  github: {
+    sectionTitle: { ID: 'Statistik GitHub', EN: 'GitHub Statistics' },
+    less:         { ID: 'Sedikit',          EN: 'Less' },
+    more:         { ID: 'Banyak',           EN: 'More' },
+    repo:         { ID: 'Total Repositori', EN: 'Total Repos' },
+    stars:        { ID: 'Bintang',          EN: 'Stars' },
+    contributions:{ ID: 'Kontribusi',       EN: 'Contributions' },
+    followers:    { ID: 'Pengikut',         EN: 'Followers' },
+  },
+  contact: {
+    sectionTitle: { ID: 'Kontak',          EN: 'Contact' },
+    infoTitle:    { ID: 'Informasi Kontak', EN: 'Contact Information' },
+    formTitle:    { ID: 'Kirim Pesan',     EN: 'Send a Message' },
+    name:         { ID: 'Nama Anda',       EN: 'Your Name' },
+    email:        { ID: 'Email Anda',      EN: 'Your Email' },
+    subject:      { ID: 'Subjek',          EN: 'Subject' },
+    message:      { ID: 'Pesan Anda',      EN: 'Your Message' },
+    send:         { ID: 'Kirim Pesan',     EN: 'Send Message' },
+    location:     { ID: 'Lokasi',          EN: 'Location' },
+  },
+}
