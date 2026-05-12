@@ -39,6 +39,12 @@
   --border-neo-thick: 3px solid #0A0A0A;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }

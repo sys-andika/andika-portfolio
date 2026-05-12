@@ -35,6 +35,12 @@ export default function ContactSection() {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
+    console.log('ENV check:', {
+      serviceId: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ? 'OK' : 'MISSING',
+      templateId: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ? 'OK' : 'MISSING',
+      publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ? 'OK' : 'MISSING',
+    });
+
     try {
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
